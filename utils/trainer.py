@@ -86,12 +86,8 @@ class Trainer(object):
     def run(self):
         EPOCH = self.cfg.training_cfg.epoch
         workflow = self.cfg.training_cfg.workflow
-        if self.test_loader != None:
-            epoch_runner = getattr(self, 'test')
-            epoch_runner()
-        else:
-            while self.epoch < EPOCH:
-                for key, running_epoch in workflow.items():
-                    epoch_runner = getattr(self, key)
-                    for e in range(running_epoch):
-                        epoch_runner()
+        while self.epoch < EPOCH:
+            for key, running_epoch in workflow.items():
+                epoch_runner = getattr(self, key)
+                for e in range(running_epoch):
+                    epoch_runner()

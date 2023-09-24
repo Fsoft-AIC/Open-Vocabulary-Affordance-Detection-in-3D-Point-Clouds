@@ -6,7 +6,6 @@ from utils import *
 import torch
 
 
-# Argument Parser
 def parse_args():
     parser = argparse.ArgumentParser(description="Test model on unseen affordances")
     parser.add_argument("--config", help="config file path")
@@ -45,8 +44,8 @@ if __name__ == "__main__":
             check = torch.load(args.checkpoint)
             model.load_state_dict(check['model_state_dict'])
 
-    dataset_dict = build_dataset(cfg)       # build the dataset
-    loader_dict = build_loader(cfg, dataset_dict)       # build the loader
+    dataset_dict = build_dataset(cfg)
+    loader_dict = build_loader(cfg, dataset_dict)
     val_loader = loader_dict.get("val_loader", None)
     val_affordance = cfg.training_cfg.val_affordance
     mIoU = evaluation(logger, cfg, model, val_loader, val_affordance)
