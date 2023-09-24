@@ -1,0 +1,7 @@
+.vscode/
+__pycache__/
+**.o
+**.so
+*.pkl
+*.ipynb
+*.log

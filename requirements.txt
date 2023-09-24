@@ -1,0 +1,7 @@
+numpy
+tqdm
+h5py
+transforms3d
+scikit_learn
+gorilla-core
+git+https://github.com/openai/CLIP.git
