@@ -29,4 +29,4 @@ The followings are steps for open-vocabulary testing a trained model with PointN
 * Run the following command:
 
 		CUDA_VISIBLE_DEVICES=0 python3 test_open_vocab.py --config ./config/openad_pn2/full_shape_open_vocab_cfg.py --checkpoint <path to your checkpoint model> --gpu 0
-Where ```<path to your checkpoint model>``` is your traiend model.
+	Where ```<path to your checkpoint model>``` is your traiend model.
