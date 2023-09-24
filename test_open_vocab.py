@@ -48,4 +48,4 @@ if __name__ == "__main__":
     loader_dict = build_loader(cfg, dataset_dict)
     val_loader = loader_dict.get("val_loader", None)
     val_affordance = cfg.training_cfg.val_affordance
-    mIoU = evaluation(logger, cfg, model, val_loader, val_affordance)
+    mIoU = evaluation(logger, model, val_loader, val_affordance)
