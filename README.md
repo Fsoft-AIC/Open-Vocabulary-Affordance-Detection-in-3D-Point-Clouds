@@ -19,16 +19,16 @@ Please train the model on a single GPU for the best performance. Below are the s
 
 * In ```config/openad_pn2/full_shape_cfg.py```, change the value of ```dataroot``` to your downloaded data folder, and change the path to class weights in to the path of the file ```full_shape_weights.npy``` (contained in the data folder).
 * Assume you use the GPU 0, then run the following command to start training:
-        ```
-        CUDA_VISIBLE_DEVICES=0 python3 train.py --config ./config/openad_pn2/full_shape_cfg.py --work_dir ./log/openad_pn2/OPENAD_PN2_FULL_SHAPE_Release/ --gpu 0
-        ```
+                ```
+                CUDA_VISIBLE_DEVICES=0 python3 train.py --config ./config/openad_pn2/full_shape_cfg.py --work_dir ./log/openad_pn2/OPENAD_PN2_FULL_SHAPE_Release/ --gpu 0
+                ```
 
 ## Open-Vocabulary Testing
 The followings are steps for open-vocabulary testing a trained model with PointNet++ backbone on the full-shape setting, those of other combinations are equivalent.
 
 * Change the value of ```dataroot``` in ```config/openad_pn2/full_shape_open_vocab_cfg.py``` to your downloaded data folder.
 * Run the following command:
-        ```
-        CUDA_VISIBLE_DEVICES=0 python3 test_open_vocab.py --config ./config/openad_pn2/full_shape_open_vocab_cfg.py --checkpoint <path to your checkpoint model> --gpu 0
-        ```
+                ```
+                CUDA_VISIBLE_DEVICES=0 python3 test_open_vocab.py --config ./config/openad_pn2/full_shape_open_vocab_cfg.py --checkpoint <path to your checkpoint model> --gpu 0
+                ```
 Where ```<path to your checkpoint model>``` is your traiend model.
