@@ -1,6 +1,6 @@
 # Open-Vocabulary Affordance Detection in 3D Point Clouds
 
-## Environment and packages
+## Getting Started
 
 ```
 conda create -n openad python=3.8
@@ -10,7 +10,7 @@ conda install pip
 pip install -r requirements.txt
 ```
 
-## Data and Checkpoints
+## Data
 Download data from [this drive folder](https://drive.google.com/drive/folders/1f-_V_iA6POMYlBe2byuplJfdKmV72BHu?usp=sharing).
 Currently, we support 2 models (OpenAD with backbones of [PointNet++](https://proceedings.neurips.cc/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf) and [DGCNN](https://dl.acm.org/doi/pdf/10.1145/3326362)) and 2 settings (full-shape and partial-view).
 
