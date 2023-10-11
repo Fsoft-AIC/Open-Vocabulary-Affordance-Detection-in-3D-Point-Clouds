@@ -52,6 +52,7 @@ training_cfg = dict(
     val_affordance = ['grasp', 'contain', 'lift', 'openable', 'layable', 'sittable',
                'support', 'wrap_grasp', 'pourable', 'move', 'displaY', 'pushable', 'pull',
                'listen', 'wear', 'press', 'cut', 'stab', 'none'],
+    weights_dir = './data/full_shape_weights.npy'
 )
 
 data = dict(
