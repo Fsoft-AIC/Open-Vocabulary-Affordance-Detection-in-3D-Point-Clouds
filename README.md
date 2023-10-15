@@ -1,6 +1,6 @@
 # Open-Vocabulary Affordance Detection in 3D Point Clouds
 
-Official code for the IROS 2023 paper "Open-Vocabulary Affordance Detection in 3D Point Clouds".
+Official code for the IROS 2023 paper "Open-Vocabulary Affordance Detection in 3D Point Clouds". Our paper is currently available at [this URL](https://arxiv.org/abs/2303.02401). More information can be accessed via [our project page](https://openad2023.github.io).
 
 <img src="./demo/intro.jpg" width="500">
 
@@ -40,3 +40,16 @@ The followings are steps for open-vocabulary testing a trained model with PointN
 
 		CUDA_VISIBLE_DEVICES=0 python3 test_open_vocab.py --config ./config/openad_pn2/full_shape_open_vocab_cfg.py --checkpoint <path to your checkpoint model> --gpu 0
 	Where ```<path to your checkpoint model>``` is your traiend model.
+
+
+## Citation
+
+If you find our work useful for your research, please cite:
+```
+@inproceedings{Nguyen2023open,
+      title={Open-vocabulary affordance detection in 3d point clouds},
+      author={Nguyen, Toan and Vu, Minh Nhat and Vuong, An and Nguyen, Dzung and Vo, Thieu and Le, Ngan and Nguyen, Anh},
+      booktitle = IROS,
+      year      = {2023}
+  }
+```
