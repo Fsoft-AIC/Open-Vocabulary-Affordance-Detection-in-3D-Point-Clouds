@@ -2,7 +2,8 @@
 
 Official code for the IROS 2023 paper "Open-Vocabulary Affordance Detection in 3D Point Clouds".
 
-![avatar](demo/intro.jpg){: width="55%"}
+<img src="./demo/intro.jpg" width="400">
+
 We present OpenAD for a new task of open-vocabulary affordance detection in 3D point clouds. Different from traditional method that are restricted to a predefined affordance label set, OpenAD can detect unlimited affordances conveyed through the form of natural language.
 
 ![image](demo/method.jpg)
