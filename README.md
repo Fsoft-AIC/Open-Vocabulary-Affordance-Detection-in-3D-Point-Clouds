@@ -1,6 +1,8 @@
-# Open-Vocabulary Affordance Detection in 3D Point Clouds
+# [IROS 2023] Open-Vocabulary Affordance Detection in 3D Point Clouds
 
-Official code for the IROS 2023 paper "Open-Vocabulary Affordance Detection in 3D Point Clouds". Our paper is currently available at [this URL](https://arxiv.org/abs/2303.02401). More information can be accessed via [our project page](https://openad2023.github.io).
+Official code for the IROS 2023 paper "Open-Vocabulary Affordance Detection in 3D Point Clouds" [BEST PAPER FINALIST].
+
+Our paper is currently available at [this URL]([https://arxiv.org/abs/2303.02401](https://ieeexplore.ieee.org/document/10341553?signout=success)). More information can be accessed via [our project page](https://openad2023.github.io).
 
 <img src="./demo/intro.jpg" width="500">
 
@@ -11,7 +13,7 @@ Our key idea is to learn collaboratively the mapping between the language labels
 
 
 ## Getting Started
-
+We strongly encourage you to create a separate CONDA environment.
 ```
 conda create -n openad python=3.8
 conda activate openad
