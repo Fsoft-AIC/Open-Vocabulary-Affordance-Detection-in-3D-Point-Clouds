@@ -1,6 +1,8 @@
 # [IROS 2023] Open-Vocabulary Affordance Detection in 3D Point Clouds
 
-Official code for the IROS 2023 paper "Open-Vocabulary Affordance Detection in 3D Point Clouds" [BEST PAPER FINALIST].
+Official code for the IROS 2023 paper "Open-Vocabulary Affordance Detection in 3D Point Clouds".
+
+😊😊😊 Our paper is nominated for the Best Overall and Best Student Paper Awards. 😊😊😊
 
 Our paper is currently available at [this URL](https://ieeexplore.ieee.org/document/10341553?signout=success). More information can be accessed via [our project page](https://openad2023.github.io).
 
@@ -24,6 +26,7 @@ pip install -r requirements.txt
 
 ## Data
 Download data from [this drive folder](https://drive.google.com/drive/folders/1f-_V_iA6POMYlBe2byuplJfdKmV72BHu?usp=sharing).
+
 Currently, we support 2 models (OpenAD with backbones of [PointNet++](https://proceedings.neurips.cc/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf) and [DGCNN](https://dl.acm.org/doi/pdf/10.1145/3326362)) and 2 settings (full-shape and partial-view).
 
 ## Training
@@ -53,5 +56,4 @@ If you find our work useful for your research, please cite:
       author={Nguyen, Toan and Vu, Minh Nhat and Vuong, An and Nguyen, Dzung and Vo, Thieu and Le, Ngan and Nguyen, Anh},
       booktitle = IROS,
       year      = {2023}
-  }
 ```
