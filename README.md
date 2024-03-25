@@ -2,7 +2,7 @@
 
 Official code for the IROS 2023 paper "Open-Vocabulary Affordance Detection in 3D Point Clouds" [BEST PAPER FINALIST].
 
-Our paper is currently available at [this URL]([https://arxiv.org/abs/2303.02401](https://ieeexplore.ieee.org/document/10341553?signout=success). More information can be accessed via [our project page](https://openad2023.github.io).
+Our paper is currently available at [this URL](https://ieeexplore.ieee.org/document/10341553?signout=success). More information can be accessed via [our project page](https://openad2023.github.io).
 
 <img src="./demo/intro.jpg" width="500">
 
