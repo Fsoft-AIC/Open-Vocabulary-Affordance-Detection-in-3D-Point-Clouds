@@ -2,7 +2,7 @@
   
 # Open-Vocabulary Affordance Detection in 3D Point Clouds
   
-[![Conference](https://img.shields.io/badge/IROS-2023-FGD94D.svg)](https://2024.ieeeicassp.org/)
+[![Conference](https://img.shields.io/badge/IROS-2023-FGD94D.svg)](https://ieee-iros.org/)
 [![Paper](https://img.shields.io/badge/Paper-arxiv.2303.02401-FF6B6B.svg)](https://arxiv.org/abs/2303.02401)
 </div>
 
