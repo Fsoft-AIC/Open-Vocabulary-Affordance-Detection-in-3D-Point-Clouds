@@ -1,10 +1,14 @@
-# [IROS 2023] Open-Vocabulary Affordance Detection in 3D Point Clouds
+<div align="center">
+  
+# Open-Vocabulary Affordance Detection in 3D Point Clouds
+  
+[![Conference](https://img.shields.io/badge/IROS-2023-FGD94D.svg)](https://2024.ieeeicassp.org/)
+[![Paper](https://img.shields.io/badge/Paper-arxiv.2303.02401-FF6B6B.svg)](https://arxiv.org/abs/2303.02401)
+</div>
 
 Official code for the IROS 2023 paper "Open-Vocabulary Affordance Detection in 3D Point Clouds".
 
 😊😊😊 Our paper is nominated for the [Best Overall and Best Student Paper Awards](https://ieee-iros.org/iros-2023-award-winners/). 😊😊😊
-
-Our paper is currently available at [this URL](https://ieeexplore.ieee.org/document/10341553?signout=success). More information can be accessed via [our project page](https://openad2023.github.io).
 
 <img src="./demo/intro.jpg" width="500">
 
@@ -44,7 +48,7 @@ The followings are steps for open-vocabulary testing a trained model with PointN
 * Run the following command:
 
 		CUDA_VISIBLE_DEVICES=0 python3 test_open_vocab.py --config ./config/openad_pn2/full_shape_open_vocab_cfg.py --checkpoint <path to your checkpoint model> --gpu 0
-	Where ```<path to your checkpoint model>``` is your traiend model.
+	Where ```<path to your checkpoint model>``` is your trained model.
 
 
 ## Citation
